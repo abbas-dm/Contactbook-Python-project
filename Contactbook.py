@@ -7,7 +7,7 @@ from sqlite3 import Error
 
 # Intializing and Connecting to the database or Creating if not exists
 try:                                              
-    conn = sqlite3.connect('ContactBook.db')         
+    conn = sqlite3.connect("Database/ContactBook.db")         
     c = conn.cursor()
     c.execute('''CREATE TABLE IF NOT EXISTS Contact (      
     			ID text,
