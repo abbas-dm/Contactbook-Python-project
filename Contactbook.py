@@ -1,5 +1,5 @@
-''' Command line Python Project to store contact datails like Id, Name, Number in a remote device. Database I used
-    for this project is Sqlite3, this is the software which can be used without installing just we need to download the source file. '''
+''' Command line Python Project to store contact datails like Id, Name, Number in a remote device. Database I used for this
+    project is Sqlite3, this is the software which can be used without installing just we need to download the source file. '''
 
 # Importing neccessary libraries
 import sqlite3
